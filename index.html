@@ -44,37 +44,14 @@
 	<!-- Preloader End-->
 
 
-	<!-- Main Menu -->
-	<div id="main-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
 
-		<div class="navbar-header">
-			<!-- responsive navigation -->
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<i class="fa fa-bars"></i>
-			</button> <!-- /.navbar-toggle -->
-
-		</div> <!-- /.navbar-header -->
-
-		<nav class="collapse navbar-collapse">
-			<!-- Main navigation -->
-			<ul id="headernavigation" class="nav navbar-nav">
-				<li class="active"><a href="#page-top">Home</a></li>	
-				<li><a href="#about">About</a></li>	
-				<li><a href="#subscribe">Subscribe</a></li>	
-				<li><a href="#contact">Contact</a></li>		
-			</ul> <!-- /.nav .navbar-nav -->
-		</nav> <!-- /.navbar-collapse  -->
-	</div><!-- /#main-menu -->
-	<!-- Main Menu End -->
-	
 
 	<!-- Page Top Section -->
 	<section id="page-top" class="section-style" data-background-image="images/background/page-top.jpg">
 		<div class="pattern height-resize">
 			<div class="container">
 				<h1 class="site-title">
-					Seeds
+					Let's grow it!
 				</h1><!-- /.site-title -->
 				<h3 class="section-name">
 					<span>
@@ -138,8 +115,22 @@
 				</div><!-- /.time-count-container -->
 
 				<p class="time-until">
-					<span>Time Until Launce</span>
+					<span>Time Until Launche</span>
 				</p><!-- /.time-until -->
+                
+<form action="/charge" method="POST">
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="pk_live_PlJxBaZZtKGCgjwq1oSHDOeI"
+    data-image="http://bigbudsmag.com/wp-content/uploads/2014/06/marijuana-seeds.jpg"
+    data-name="letsgrowit.tk"
+    data-description="La graines de cannabis bio !"
+    data-zip-code="true"
+    data-currency="eur"
+    data-amount="999"
+    data-locale="auto">
+  </script>
+</form>
 
 
 
@@ -154,7 +145,7 @@
 
 
 	<!-- About Us Section -->
-	<section id="about" class="section-style" data-background-image="images/background/about-us.jpg">
+	<section id="about" class="section-style" data-background-image="images/background/contact.jpg">
 		<div class="pattern height-resize"> 
 			<div class="container">
 				<h3 class="section-name">
@@ -388,62 +379,6 @@
 
 
 
-		<!-- Contact Section -->
-		<section id="contact" class="section-style" data-background-image="images/background/contact.jpg">
-			<div class="pattern height-resize">
-				<div class="container">
-					<h3 class="section-name">
-						<span>
-							Contact
-						</span>
-					</h3><!-- /.section-name -->
-					<h2 class="section-title">
-						Get in Touch 
-					</h2><!-- /.Section-title  -->
-					<p class="section-description">
-						Wanna smoke a join with us? Just fill in this form and come to meet us in Amsterdam!
-					</p><!-- /.section-description -->
-
-					<form id="contact-form" action="email.php" method="post" class="clearfix">
-						<div class="contact-box-hide">
-							<div class="col-sm-6">
-								<input type="text"  class="form-control" id="first_name" name="first_name" required placeholder="First Name">
-								<span class="first-name-error"></span>
-							</div>
-							<div class="col-sm-6">
-								<input type="text"  class="form-control" id="last_name" name="last_name" required placeholder="Last Name">
-								<span class="last-name-error"></span>
-							</div>
-							<div class="col-sm-6">
-								<input type="email" class="form-control"  id="contact_email" name="contact_email" required placeholder="Email Address">
-								<span class="contact-email-error"></span>
-							</div>
-							<div class="col-sm-6">
-								<input type="text"  class="form-control" id="subject" name="contact_subject" required placeholder="Subject">
-								<span class="contact-subject-error"></span>
-							</div>
-							<div class="col-sm-10">
-								<textarea class="form-control" rows="5" id="message" name="message" required placeholder="Message"></textarea>
-								<span class="contact-message-error"></span>
-							</div>
-							<div class="col-sm-2">
-								<button id="contact-submit" class="btn custom-btn col-xs-12" type="submit" name="submit"><i class="fa fa-rocket"></i></button>
-								<span id="contact-loading" class="btn custom-btn col-xs-12"> <i class="fa fa-refresh fa-spin"></i> </span>
-							</div>
-						</div><!-- /.contact-box-hide -->
-						<div class="contact-message"></div>
-
-					</form><!-- /#contact-form -->		
-
-					<div class="next-section">
-						<a class="go-to-page-top"><span></span></a>
-					</div><!-- /.next-section -->
-
-				</div><!-- /.container -->
-			</div><!-- /.pattern -->
-
-		</section><!-- /#contact -->
-		<!-- Contact Section End -->
 
 
 
